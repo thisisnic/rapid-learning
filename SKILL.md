@@ -172,6 +172,10 @@ Each activity should include:
   - The diagram becomes a reference artifact for the rest of the session and beyond
   - Update the diagram as new layers are discovered during exploration
 
+**Every activity is grounded in specific code.** The user runs or reads something concrete in every activity. No activity is "the agent explains the concept". If the user needs a concept before they can run anything, give them a small runnable example that shows it, not a paragraph about it. Running code is also the only check on your explanation being wrong.
+
+**Use meaningful names in example code.** Classes, functions and variables in snippets should describe something real (`Animal`, `Dog`, `speak`), never placeholders like `A`, `B`, `g` or `foo`. Abstract names force the user to hold the structure in their head on top of the concept being learned.
+
 **Rough mapping from goal to activity type:**
 - Understanding new syntax: build-minimal, then explore
 - Learning library internals: reverse-engineer
