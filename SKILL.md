@@ -81,9 +81,6 @@ Ask the user to confirm or narrow the goals before moving on.
 ### If the topic is the codebase you're working in
 
 Don't ask the user. Find the relevant files yourself, list them with a one-line note on what each does, and move on to step 3. Resource gathering here is part of the activities, not a separate phase.
-
-**Work things out, but don't reveal them.** Investigate as much as you need to design good activities and know where the interesting moments are. What you learn while preparing stays unsaid until the user reaches it in an activity. Revealing a finding up front spoils the discovery the activity was designed for.
-
 ### If the topic is external
 
 Ask what kind of prior art they want (real packages or codebases to reverse-engineer, tutorials, videos, documentation, examples in their own projects).
@@ -171,10 +168,6 @@ Each activity should include:
   - Example: "Create a diagram of the request lifecycle from user input to HTTP response"
   - The diagram becomes a reference artifact for the rest of the session and beyond
   - Update the diagram as new layers are discovered during exploration
-
-**Every activity is grounded in specific code.** The user runs or reads something concrete in every activity. No activity is "the agent explains the concept". If the user needs a concept before they can run anything, give them a small runnable example that shows it, not a paragraph about it. Running code is also the only check on your explanation being wrong.
-
-**Use meaningful names in example code.** Classes, functions and variables in snippets should describe something real (`Animal`, `Dog`, `speak`), never placeholders like `A`, `B`, `g` or `foo`. Abstract names force the user to hold the structure in their head on top of the concept being learned.
 
 **Rough mapping from goal to activity type:**
 - Understanding new syntax: build-minimal, then explore

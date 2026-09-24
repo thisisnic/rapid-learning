@@ -22,6 +22,8 @@ Agent: Here's a plan: four activities, about an hour. Activity 1, 20 minutes:
 
 The agent asks one question at a time, keeps you to the timeboxes, and lets you do the work.
 
+Results vary with the model. The skill relies on the agent knowing the topic well enough to design activities and check your reasoning, so it does better when the learning is grounded in a codebase the agent can read than when it's a concept the agent has to know from memory. In testing, small or budget models produced wrong code and explanations that a stronger model got right.
+
 ## Install
 
 **Claude Code**
