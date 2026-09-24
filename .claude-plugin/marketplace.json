@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "rapid-learning",
+  "owner": {
+    "name": "Nic Crane"
+  },
+  "metadata": {
+    "description": "An agent skill for learning programming topics with an LLM as tutor",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "rapid-learning",
+      "source": "./",
+      "description": "Structured, timeboxed learning sessions with an LLM as tutor rather than code generator",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nic Crane"
+      },
+      "license": "CC-BY-4.0",
+      "keywords": ["learning", "education", "tutoring"],
+      "category": "education"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "rapid-learning",
+  "version": "1.0.0",
+  "description": "Structured, timeboxed learning sessions with an LLM as tutor rather than code generator",
+  "author": {
+    "name": "Nic Crane"
+  },
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/thisisnic/rapid-learning",
+  "keywords": ["learning", "education", "tutoring"]
+}
