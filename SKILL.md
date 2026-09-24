@@ -82,6 +82,8 @@ Ask the user to confirm or narrow the goals before moving on.
 
 Don't ask the user. Find the relevant files yourself, list them with a one-line note on what each does, and move on to step 3. Resource gathering here is part of the activities, not a separate phase.
 
+**Work things out, but don't reveal them.** Investigate as much as you need to design good activities and know where the interesting moments are. What you learn while preparing stays unsaid until the user reaches it in an activity. Revealing a finding up front spoils the discovery the activity was designed for.
+
 ### If the topic is external
 
 Ask what kind of prior art they want (real packages or codebases to reverse-engineer, tutorials, videos, documentation, examples in their own projects).
@@ -214,6 +216,10 @@ Timebox: 20-30 minutes
 ### Update plan.md
 
 If saving, add each activity in full under the Activities heading in `plan.md`, one `## Activity N: [Name]` section per activity.
+
+### Check the Plan Against the Answers
+
+Before presenting, reread the user's answers from step 1 and check each activity against them: end state, audience, depth, how they said they'd like to learn, and time. An explanatory goal does not get a mechanical trace through internals. A user who said an area is murky does not get an activity that starts there. Fix mismatches before showing the plan.
 
 ### Present the Plan
 
